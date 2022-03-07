@@ -14,19 +14,19 @@
 - [ ] (중요) 아래 요구사항에 적혀진 페이지별 url, localStorage key 이름 등은 반드시 지켜주세요.
 - [ ] (필수) 총 3개의 페이지를 만들어야 합니다.
 - [ ] (필수) 기본으로 제공되는 index.html의 마크업대로 각 컴포넌트의 UI를 작성하도록 합니다.
-- [ ] 상품의 가격을 표시할 때에는 3자리마다 콤마(,)를 찍도록 합니다.
-
+- [ ] 상품의 가격을 표시할 때에는 3자리마다 콤마(,)를 찍도록 합니다.   
+　   
 #### 상품 목록 페이지
 
-Untitled.png
+![image](https://user-images.githubusercontent.com/45534877/156978872-e21d04e5-98ce-430f-bf7a-e65aa80e593d.png)
 
 - [ ] url: /web/
 - [ ] 위의 디자인에 따라 상품 목록을 렌더링 합니다.
-- [ ] 목록에서 상품 카드를 클릭하면 상품 상세 페이지로 이동합니다.
-
+- [ ] 목록에서 상품 카드를 클릭하면 상품 상세 페이지로 이동합니다.   
+　   
 #### 상품 상세 페이지
 
-Untitled 1.png
+![image](https://user-images.githubusercontent.com/45534877/156978889-65dca3d7-61ef-4156-b589-62ec1c34fda3.png)
 
 - [ ] url: /web/products/:productId
 - [ ] (필수) productId에 해당하는 상품을 불러오고, 상품 정보를 렌더링 합니다.
@@ -57,11 +57,11 @@ Untitled 1.png
     quantity: '선택한 수량',
   },
 ];
-```
-
+```   
+　   
 #### 장바구니
 
-Untitled 2.png
+![image](https://user-images.githubusercontent.com/45534877/156978911-cf6738fc-3763-41fa-9aef-21ea0afbec57.png)
 
 - url: /web/cart
 - [ ] (필수) local storage에 담아둔 장바구니 관련 데이터를 이용해 상품 및 상품 옵션 데이터를 불러오고, 화면 가이드에 맞게 장바구니에 담긴 상품들을 렌더링 합니다.
@@ -74,8 +74,8 @@ Untitled 2.png
   - 출력 텍스트 형식은 마크업, 그리고 예시 화면과 같게 해주세요.
   - 총 상품가격 ${계산된 총 상품 가격}원의 형식입니다.
 - [ ] (필수) 주문하기 클릭 시, alert을 이용해 주문되었습니다 메시지를 띄우고 상품 목록 페이지로 이동시킵니다. 이때 local storage에 담아둔 장바구니 값들은 모두 비워야합니다.
-- [ ] 만약 장바구니에 담은 상품이 없는 채로 장바구니 페이지에 들어오면 alert을 이용해 장바구니가 비어 있습니다 메세지를 띄운 후 상품 목록 페이지로 이동시킵니다.
-
+- [ ] 만약 장바구니에 담은 상품이 없는 채로 장바구니 페이지에 들어오면 alert을 이용해 장바구니가 비어 있습니다 메세지를 띄운 후 상품 목록 페이지로 이동시킵니다.   
+　   
 ### API 명세
 
 #### 상품 목록 조회
@@ -106,8 +106,8 @@ Untitled 2.png
   - id: 상품 id
   - name: 상품 이름
   - imageUrl: 상품 이미지 주소
-  - price: 상품 가격
-
+  - price: 상품 가격   
+　   
 #### 상품 옵션 및 수량 조회
 
 - GET - https://uikt6pohhh.execute-api.ap-northeast-2.amazonaws.com/dev/products/{productId}
